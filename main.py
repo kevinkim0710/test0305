@@ -137,9 +137,9 @@ elif st.session_state.step == 6:
         progress_bar.progress(percent)
     st.button("결과 보기", key="result", on_click=go_to_step, args=(7,))
 
-elif st.session_state.step == 5:
+elif st.session_state.step == 7:
     st.header("당신의 패션 점수는?!")
-    st.subheader("24점! 진짜 최악이네요!")
-    st.subheader("어울리는 스타일 찾으러가기 👇")
-    st.subheader("https://4910.kr/codi")
+    st.header("24점! 진짜 최악이네요!")
+    st.header("어울리는 스타일 찾으러가기 👇")
+    st.header("https://4910.kr/codi")
     st.balloons()
