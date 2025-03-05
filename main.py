@@ -18,7 +18,7 @@ if st.session_state.step == 1:
         st.session_state.weight = weight
         st.session_state.body_type = body_type
         st.session_state.step = 2
-        st.experimental_rerun()
+        st.stop()  # 실행 중단 후 다음 상호작용에서 업데이트된 상태 반영
 
 elif st.session_state.step == 2:
     st.header("2. 얼굴 톤 선택")
@@ -27,7 +27,7 @@ elif st.session_state.step == 2:
     if st.button("다음"):
         st.session_state.face_tone = face_tone
         st.session_state.step = 3
-        st.experimental_rerun()
+        st.stop()
 
 elif st.session_state.step == 3:
     # 이미지 선택 단계 - 3회 반복
@@ -72,7 +72,7 @@ elif st.session_state.step == 3:
         st.session_state.image_step += 1
         if st.session_state.image_step > 3:
             st.session_state.step = 4
-        st.experimental_rerun()
+        st.stop()
 
 elif st.session_state.step == 4:
     st.header("4. 결과 분석 중...")
@@ -82,7 +82,7 @@ elif st.session_state.step == 4:
         time.sleep(0.05)  # 0.05초 * 100 = 5초
         progress_bar.progress(percent)
     st.session_state.step = 5
-    st.experimental_rerun()
+    st.stop()
 
 elif st.session_state.step == 5:
     st.header("당신의 패션 점수는?!")
