@@ -39,9 +39,24 @@ elif st.session_state.step == 3:
     
     # 예시 이미지 URL (플레이스홀더 이미지 사용)
     images = [
-        "https://via.placeholder.com/150?text=Image1",
-        "https://via.placeholder.com/150?text=Image2",
-        "https://via.placeholder.com/150?text=Image3"
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_49_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_48_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_47_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_46_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_45_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_44_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_43_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_42_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/1_41_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/3_30_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/3_29_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/3_28_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/3_27_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/3_26_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/3_25_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/3_24_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/2_30_a_1.webp",
+"https://img.a-bly.com/4910/data/style_codis/images/curation/2_29_a_1.webp"
     ]
     
     selected = None
